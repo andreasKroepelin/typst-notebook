@@ -153,13 +153,13 @@ show heading: it => {
   locate( loc => {
     heading-positions.update( hp => hp + ( (it.body, loc), ) )
   })
-  [
-    #figure(kind: "entry", supplement: it.body, numbering: (..n) => [], [])
-    #label(label-name)
-  ]
   block[
     #it.body
     #text(size: .5em, raw(block: false, lang: "typ", "@" + label-name))
+    #box[
+      #figure(kind: "entry", supplement: it.body, numbering: (..n) => [], [])
+      #label(label-name)
+    ]
   ]
 }
 
@@ -178,6 +178,8 @@ show "TODO": it => {
   text(fill: red, size: 1em, weight: "bold", smallcaps(it))
 }
 show "DONE": it => text(fill: green, size: 1em, weight: "bold", smallcaps(it))
+
+line(length: 100%, stroke: .2em + gray)
 
 body
 }
