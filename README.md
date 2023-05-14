@@ -1,6 +1,6 @@
 # Typst notebook
 
-![license](https://img.shields.io/github/license/andreasKroepelin/typst-notebook)
+![license](https://img.shields.io/github/license/andreasKroepelin/typst-notebook?style=flat-square)
 
 This is a small template to write a notebook using [Typst](https://typst.app).
 
