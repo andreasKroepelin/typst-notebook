@@ -142,3 +142,4 @@ If you omit the title argument (i.e. you just call `note`), it uses the current
 date in the form `2023-jun-01` as the title.
 
 Contributions porting this script to other shells are welcome.
+
