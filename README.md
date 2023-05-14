@@ -56,7 +56,7 @@ This produces the following document:
 
 ### Creating notes
 By using a level-one heading (`= Heading`), you create a new note.
-It is automatically assigned a label based on its title text that it printed next
+It is automatically assigned a label based on its title text that is printed next
 to the title for convenience, so that you know what to refer to.
 
 ### Keeping track of TODOs
@@ -79,7 +79,7 @@ of tags in the form of a Typst dictionary.
 The keys are the names of the tags and the values are the colors they are supposed
 to have.
 The name of the tag is printed in white per default.
-If, however you want to have a tag with a very light color, that can become an
+If, however, you want to have a tag with a very light color, that can become an
 issue.
 In that case, you can use a more complex syntax:
 ```typ
