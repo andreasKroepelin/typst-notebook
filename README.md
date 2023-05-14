@@ -121,7 +121,7 @@ For example, if you look at the TODO overview in the example doument above and
 want to know what kind of TODOs you have for Note 3 without jumping there, you
 can just hover the mouse pointer over the title:
 
-https://github.com/andreasKroepelin/typst-notebook/assets/42342396/0a808f54-3719-4ca6-a7a3-17585d1ee2ae
+https://github.com/andreasKroepelin/typst-notebook/assets/42342396/6738663c-ca16-40e1-aaeb-ebe006955878
 
 
 ## Shell support
