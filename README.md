@@ -50,7 +50,7 @@ TODO do another thing
 ```
 
 This produces the following document:
-![screenshot](https://raw.githubusercontent.com/andreasKroepelin/typst-notebook/main/.github/images/screenshot.png)
+![screenshot](assets/screenshot.png)
 
 
 ## Features
