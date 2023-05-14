@@ -55,6 +55,18 @@ This produces the following document:
 
 ## Features
 
+### The document itself
+Using this template creates a document with a single ever-growing page.
+This is achieved by using `#set page(height: auto)`.
+The width of that page can be configured using the `width` argument in the
+template function:
+```typ
+#show: notebook.with(
+  // ...
+  width: 80em,
+)
+```
+
 ### Creating notes
 By using a level-one heading (`= Heading`), you create a new note.
 It is automatically assigned a label based on its title text that is printed next
@@ -97,6 +109,10 @@ For example, `@tag-1` creates a link to an overview of `tag-1` at the top of the
 document.
 In this overview, you can find all notes that mention this tag and by clicking
 any of their titles in this list you can jump to that note.
+
+### Entry overview
+Also at the top of the document, you can find an automatic table of contents
+with all then entries in your notebook.
 
 ## Considerations for choosing the PDF viewer
 Some PDF viewers like `evince` on Linux have a _preview_ feature that comes in
