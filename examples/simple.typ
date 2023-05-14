@@ -1,4 +1,4 @@
-#import "../notebook-template.typ": notebook
+#import "../template-notebook.typ": notebook
 
 #set text(font: "Inria Sans")
 

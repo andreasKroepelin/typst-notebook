@@ -7,6 +7,6 @@ function note
 
     set -f filename (echo $title | string lower | string replace " " "-")
 
-    echo -e "\n#include \"$filename.typ\"" >> index.typ
+    echo -e "\n#include \"$filename.typ\"" >> notebook.typ
     echo "= $title" > "$filename.typ"
 end
