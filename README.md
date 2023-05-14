@@ -103,7 +103,7 @@ really handy here.
 For example, if you look at the TODO overview in the example doument above and
 want to know what kind of TODOs you have for Note 3 without jumping there, you
 can just hover the mouse pointer over the title:
-![evince](assets/evince.webm)
+![evince](assets/evince.mov)
 
 ## Shell support
 In `scripts/note.fish`, you can find a utility function for the fish shell to
